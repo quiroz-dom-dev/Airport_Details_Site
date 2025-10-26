@@ -1,0 +1,36 @@
+<!--
+The following webpage provides a sample of 5 airport codes.
+When you select an airport code from the dropdown, airport details will pull from API to display.
+RESTful API of choice: https://airportgap.com/docs
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Airport Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Airport Locator</h1>
+    <div class="airport-locator">
+      <form id="airportForm">
+        <label for="code">Choose Airport Code:</label>
+        <select id="code" name="code" required>
+            <option value="">--Select--</option>
+            <option value="THU">THU</option>
+            <option value="YAY">YAY</option>
+            <option value="AEY">AEY</option>
+            <option value="LAE">LAE</option>
+            <option value="VEY">VEY</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <h2>Airport Details</h2>
+    <div id="airportInfo"></div>
+    <script src="AirportGap.js"></script>
+  </body>
+</html>

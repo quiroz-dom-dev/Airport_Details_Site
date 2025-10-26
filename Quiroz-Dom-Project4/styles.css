@@ -1,0 +1,62 @@
+body {
+  font-family: 'Playwrite AU SA', sans-serif;
+  background-color: #b0b0b1;
+  color: #333;
+  padding: 2rem;
+  line-height: 1.6;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a73e8;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a73e8;
+  margin-top: 3rem;
+}
+.airport-locator {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+select {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+button {
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #1666c1;
+}
+#airportInfo {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  font-size: 1rem;
+}
